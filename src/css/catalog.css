@@ -150,10 +150,10 @@
 
     background: #1E2827;
     border-radius: 8px;
-    border: none;
 
     text-align: center;
     text-transform: uppercase;
+    border: 1px solid #1E2827;
 
     color: #FFFFFF;
     padding: 14px 28px;
