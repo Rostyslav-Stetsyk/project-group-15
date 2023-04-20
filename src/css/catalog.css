@@ -1,4 +1,6 @@
-.catalog {}
+.catalog {
+    padding: 80px 0;
+}
 
 .catalog-container {
     width: 375px;
