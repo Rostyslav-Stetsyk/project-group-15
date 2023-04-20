@@ -2,8 +2,8 @@
   |============================
   | include css partials with
   | default @import url()
-  |============================
-*/
+  |============================*/
+@import url('./font.css');
 @import url('./root.css');
 @import url('./reset.css');
 /* general */
