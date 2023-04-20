@@ -1,0 +1,43 @@
+/*!=================GENERAL=================!*/
+
+body{
+    color: var(--color-black);
+    background-color: var(--color-white);
+  
+    font-family: Epilogue, sans-serif;
+    font-weight: 400;
+  }
+
+.container{
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.section-title{
+    color: var(--color-dark-green);
+
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: start;
+    letter-spacing: -0.02em;
+}
+
+.text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.list {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
