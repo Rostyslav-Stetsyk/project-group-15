@@ -2,10 +2,6 @@
 
 body{
     color: var(--color-black);
-    background-color: var(--color-white);
-  
-    font-family: Epilogue, sans-serif;
-    font-weight: 400;
   }
 
 .container{
