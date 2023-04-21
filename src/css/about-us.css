@@ -26,7 +26,7 @@
 .about-list {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  gap: 20px;
 }
 
 .about-container {
@@ -37,23 +37,47 @@
   padding-right: 20px;
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
+  gap: 40px;
 }
 
-.about-list::after {
+.about-container::after {
   content: '';
   background-image: url(../img/watchspot.gif);
   background-size: cover;
   background-position: 50% 50%;
   width: 335px;
   height: 365px;
-  margin-top: 40px;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .about-container {
-    max-width: 766px;
+    min-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .about-list {
+    flex-direction: row;
+  }
+
+  .about-container::after {
+    width: 704px;
+    height: 465px;
+  }
+
+  .about-row {
+    flex-direction: row;
+  }
+
+  .about-title {
+    font-size: 40px;
+    line-height: 1.1;
+    min-width: 174px;
   }
 }
