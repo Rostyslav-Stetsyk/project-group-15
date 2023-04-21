@@ -3,10 +3,24 @@
 .section {
 }
 .new-watches-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.06em;
+  color: rgba(20, 20, 20, 0.4);
 }
 .new-watches-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--color-dark-green);
 }
 .new-watches-list {
 }
 .new-watches-item {
+}
+.new-watches-img {
 }
