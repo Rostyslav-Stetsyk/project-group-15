@@ -15,7 +15,7 @@
     max-width: 335px;
     height: 95%;
     position: relative;
-    overflow: scroll;
+    overflow: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
