@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Epilogue-300';
+  src: url('../fonts/Epilogue-Light.eot');
+  src: url('../fonts/Epilogue-Light.woff2') format('woff2'),
+    url('../fonts/Epilogue-Light.woff') format('woff'),
+    url('../fonts/Epilogue-Light.ttf') format('truetype'),
+    url('../fonts/Epilogue-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue-400';
+  src: url('../fonts/Epilogue-Regular.eot');
+  src: url('../fonts/Epilogue-Regular.woff2') format('woff2'),
+    url('../fonts/Epilogue-Regular.woff') format('woff'),
+    url('../fonts/Epilogue-Regular.ttf') format('truetype'),
+    url('../fonts/Epilogue-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue-600';
+  src: url('../fonts/Epilogue-SemiBold.eot');
+  src: url('../fonts/Epilogue-SemiBold.woff2') format('woff2'),
+    url('../fonts/Epilogue-SemiBold.woff') format('woff'),
+    url('../fonts/Epilogue-SemiBold.ttf') format('truetype'),
+    url('../fonts/Epilogue-SemiBold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}

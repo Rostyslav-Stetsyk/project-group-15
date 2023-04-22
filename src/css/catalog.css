@@ -2,12 +2,6 @@
     padding: 80px 0;
 }
 
-.catalog-container {
-    width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
 .catalog-title {
     font-family: var(--heading-font);
     font-weight: 600;
@@ -172,9 +166,6 @@
 
 
 @media screen and (min-width: 768px) {
-    .catalog-container {
-        width: 744px;
-    }
 
     .catalog-title {
         font-size: 40px;
@@ -193,9 +184,6 @@
 
 
 @media screen and (min-width: 1280px) {
-    .catalog-container {
-        width: 1218px;
-    }
 
     .catalog-elements {
         width: 1218px;

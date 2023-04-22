@@ -1,25 +1,8 @@
-@font-face {
-  font-family: "Epilogue-300";
-  src: url(/fonts/Epilogue-Light.ttf);
-}
-@font-face {
-  font-family: "Epilogue-400";
-  src: url(/fonts/Epilogue-Regular.ttf);
-}
-@font-face {
-  font-family: "Epilogue-600";
-  src: url(/fonts/Epilogue-SemiBold.ttf);
-}
-@font-face {
-  font-family: "NeueMontreal-400";
-  src: url(/fonts/NeueMontreal-Regular.otf);
-}
 :root {
   --color-dark-green: #1e2827;
   --color-black: #141414;
   --color-white: #ffffff;
-  --primary-font: font-family: "Epilogue-400"; 
-  --secondary-font: font-family: "Epilogue-300"; 
-  --heading-font: font-family: "Epilogue-600";
-  --price-font: font-family: "NeueMontreal-400";
+  --color-grey: #c6cdd1;
+  --color-text: rgba(20, 20, 20, 0.5);
+  --transition-duration: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

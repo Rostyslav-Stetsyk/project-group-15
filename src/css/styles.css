@@ -2,19 +2,17 @@
   |============================
   | include css partials with
   | default @import url()
-  |============================
-*/
+  |============================*/
+@import url('./font.css');
 @import url('./root.css');
 @import url('./reset.css');
-/* general */
+@import url('./general.css');
 @import url('./header.css');
 @import url('./hero.css');
-/* about us */
-/* catalog */
+@import url('./about-us.css');
 @import url('./catalog.css');
-/* new watches */
-/* sale */
+@import url('./new-watches.css');
+@import url('./sale.css');
 /* footer */
-/* buy now */
 @import url('./popup.css');
 /* burger menu */
