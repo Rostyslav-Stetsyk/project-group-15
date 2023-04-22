@@ -46,6 +46,17 @@
 
 }
 
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.2);
+}
+
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+} 
+
 /* modal */
 .modal-picture {
     width: 100%;
