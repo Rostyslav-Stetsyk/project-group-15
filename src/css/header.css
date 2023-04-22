@@ -19,3 +19,11 @@
 .nav-link:focus {
   color: #747bff;
 }
+.heder-logo {
+  width: 24px;
+  height: 24px;
+}
+.header {
+  height: 53px;
+  background-color: #747bff;
+}
