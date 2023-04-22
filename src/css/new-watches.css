@@ -19,6 +19,9 @@
   color: var(--color-dark-green);
 }
 .new-watches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .new-watches-item {
 }
