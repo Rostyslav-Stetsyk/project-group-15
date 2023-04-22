@@ -25,7 +25,6 @@
     padding: 40px 20px;
 }
 
-
 .modal-close {
     position: absolute;
     top: 12px;
@@ -50,7 +49,6 @@ stroke: var(--color-black);
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.2);
 }
-
 
 .is-hidden {
     opacity: 0;
@@ -200,10 +198,8 @@ border: 1px solid var(--color-white);
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.4);
-
     margin-top: 12px;
 }
-
 
 @media screen and (min-width: 768px) {
 .modal {
@@ -213,15 +209,27 @@ border: 1px solid var(--color-white);
     max-width: 744px;
     padding: 40px;
     height: auto;
+    overflow: hidden;
     }
 .modal-form {
     max-width: 368px;
+}
+.modal-form-input-descr {
+    font-size: 14px;
+    line-height: 1.29;
+}
+.modal-form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.12;
+}
+.modal-form-message::placeholder {
+    font-size: 16px;
+    line-height: 1.12;
 }
 .modal-form-submit {
     padding: 18px 36px;
     width: 100%;
 }
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -236,9 +244,9 @@ border: 1px solid var(--color-white);
 .modal-form-field {
     margin-bottom: 24px;
 }
-    .modal-form-submit {
-        padding: 18px 36px;
-        width: 100%;
-        margin-top: 40px;
-    }
+.modal-form-submit {
+    padding: 18px 36px;
+    width: 100%;
+    margin-top: 40px;
+}
 }
