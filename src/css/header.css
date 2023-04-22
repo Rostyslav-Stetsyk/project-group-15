@@ -1,5 +1,21 @@
 .header {
-  padding: 20px 0;
+  position: absolute;
+  background-color: #141414;
+  max-width: 374px;
+}
+.header-logo {
+  width: 14px;
+  height: 14px;
+}
+
+.logo-text {
+font-family: Epilogue-400, sans-serif;
+font-style: normal;
+font-size: 12px;
+Line height: 100%
+text-align: left;
+vertical-align: top;
+letter-spacing: -3%;
 }
 
 .nav-list {
@@ -22,8 +38,4 @@
 .heder-logo {
   width: 24px;
   height: 24px;
-}
-.header {
-  height: 53px;
-  background-color: #747bff;
 }
