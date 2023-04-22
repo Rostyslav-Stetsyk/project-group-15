@@ -14,8 +14,8 @@
     />
     <!-- Style -->
     
-    <script type="module" crossorigin src="/project-group-15/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/project-group-15/assets/index-1c04e2cd.css">
+    <script type="module" crossorigin src="/project-group-15/assets/index-03f5ebd9.js"></script>
+    <link rel="stylesheet" href="/project-group-15/assets/index-c36938d9.css">
   </head>
   <body>
     <!-- Header -->
@@ -716,7 +716,54 @@ Water Resistant: 5
     EISDIR: illegal operation on a directory, read
 
     <!-- Buy now (popup) -->
-    EISDIR: illegal operation on a directory, read
+    <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+            <svg class="modal-close-x" width="24px" height="24px">
+                <use href=""></use>
+            </svg>
+        </button>
+        <div class="modal-content">
+            <img class="modal-picture" 
+                srcset="../img/catalog/catalog_1_1.png 1x,
+                        ../img/catalog/catalog_1_1_@2x.png 2x" 
+                        src="../img/catalog/catalog_1_1.png" 
+                        alt="Steel watch with black" width="276" height="274" />
+            <div class="modal-descr">
+                <p class="modal-text">Tube Watch S42 Date Steel With Black </p>
+                <span class="modal-price">€395</span>
+            </div>
+        </div>
+
+        <form class="modal-form">
+            <label class="modal-form-field">
+                <span class="modal-form-input-descr">Full name</span>
+                <input type="text" name="text" class="modal-form-input" minlength="3" pattern="{a-zA-Z]+\s[a-zA-Z}" title="Username must be two words separated by space." placeholder="Enter your full name" required>
+            </label>
+
+            <label class="modal-form-field">
+                <span class="modal-form-input-descr">Email</span>
+                <input type="email" name="email" class="modal-form-input" placeholder="Enter your email" required>
+            </label>
+
+            <label class="modal-form-field">
+                <span class="modal-form-input-descr">Card number</span>
+                <input type="tel" name="card" pattern=".{16}" class="modal-form-input" placeholder="Enter card" required>
+            </label>
+
+            <label class="modal-form-field-textarea">
+                <span class="modal-form-input-descr">Comments</span>
+                <textarea name="user_message" class="modal-form-message" rows="5" placeholder="Enter your text"></textarea>
+            </label>
+
+            <button type="submit" class="modal-form-submit">Submit</button>
+            <p class="modal-form-text">By clicking on “Send message” button, you agree to our Privacy Policy, and allow Promodo to use this information for
+            marketing purposes.</p>
+        </form>
+
+
+    </div>
+</div>
 
     <!-- Burger menu (for mobile) -->
     EISDIR: illegal operation on a directory, read
