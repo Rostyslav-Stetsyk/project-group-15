@@ -3,19 +3,18 @@
   background-color: #141414;
   padding: 28px 0;
 }
-.header.container {
-  position: relative;
+.header .container {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 374px;
 }
 
 .logo-box {
   width: 98px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 4px;
-  margin-right: 0;
 }
 
 .header-logo {
