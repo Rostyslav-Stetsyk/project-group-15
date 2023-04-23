@@ -1,17 +1,20 @@
 .header {
   position: absolute;
   background-color: transparent;
-  padding-top: 28px;
+
   max-width: 375px;
 }
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  padding-top: 28px;
 }
 
 .logo-box {
+  position: absolute;
+  top: 32px;
+  left: 20px;
   width: 98px;
   display: flex;
   align-items: center;
@@ -37,13 +40,10 @@
   color: #ffffff;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-}
-
 .menu-btn {
+  position: absolute;
+  top: 28px;
+  right: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +59,10 @@
   width: 100%;
 }
 
+.container.js-menu-container .nav {
+  display: none;
+}
+
 .container.js-menu-container .icon-cross {
   display: none;
 }
@@ -67,26 +71,29 @@
   display: block;
 }
 
-.menu-btn.is-open .icon-menu {
-  display: none;
-}
-
-.container.js-menu-container .nav-list {
-  display: none;
-}
 .container.js-menu-container.is-open {
-  position: fixed;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  padding: 0;
+  width: 100vw;
+  height: 100vw;
   z-index: 1;
   background-color: #1e2827;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.container.js-menu-container.is-open .nav-list {
+
+.container.js-menu-container .nav {
+  display: block;
+  margin: 0 auto;
+}
+
+.container.js-menu-container.is-open .nav {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.container.js-menu-container.is-open .nav-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
