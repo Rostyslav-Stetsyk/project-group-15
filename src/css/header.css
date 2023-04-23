@@ -1,14 +1,13 @@
 .header {
-  background-color: #141414;
-}
-.header .container {
   position: absolute;
-  display: flex;
-  justify-content: space-between;
-  left: 50%;
-  transform: translateX(-50%);
+  background-color: transparent;
   padding-top: 28px;
   max-width: 375px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-box {
@@ -40,6 +39,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  margin-left: auto;
 }
 .nav-list {
   display: none;
@@ -54,4 +54,26 @@
   margin: 0;
   padding: 0;
   fill: #ffffff;
+}
+
+.icon-cross {
+  fill: inherit;
+  width: 100%;
+}
+
+.menu-btn .icon-cross {
+  display: none;
+}
+
+.menu-btn.is-open .icon-cross {
+  display: block;
+}
+
+.menu-btn.is-open .icon-menu {
+  display: none;
+}
+
+.menu-container {
+  background-color: #1e2827;
+  text-align: center;
 }
