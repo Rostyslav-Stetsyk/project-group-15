@@ -15,7 +15,7 @@
     max-width: 335px;
     height: 95%;
     position: relative;
-    overflow: scroll;
+    overflow: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
@@ -24,7 +24,6 @@
     box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
     padding: 40px 20px;
 }
-
 
 .modal-close {
     position: absolute;
@@ -35,21 +34,21 @@
     align-items: center;
     width: 24px;
     height: 24px;
-    background-color: var(--color-black);
-    border: 1px solid var(--color-white);
+    stroke: var(--color-text);
+    background-color: var(--color-white);
+    border: none;
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
 .modal-close:focus {
-
+stroke: var(--color-black);
 }
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.2);
 }
-
 
 .is-hidden {
     opacity: 0;
@@ -65,7 +64,7 @@
     margin-top: 14px;
 }
 .modal-text {
-    font-family: var(--primary-font);
+    font-family: 'Epilogue-400';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -76,14 +75,14 @@
 }
 
 .modal-price {
-    font-family: var(--primary-font);
+    font-family: 'Epilogue-400';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     
-    color: rgba(20, 20, 20, 0.5);
+    color: var(--color-text);
 }
 
 .modal-form {
@@ -96,7 +95,7 @@
 }
 
 .modal-form-input-descr {
-    font-family: var(--primary-font);
+    font-family: 'Epilogue-400';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -110,7 +109,7 @@
 .modal-form-input {
     width: 100%;
     height: 42px;
-    border: 1px solid rgba(20, 20, 20, 0.5);
+    border: 1px solid var(--color-text);
     border-radius: 8px;
     padding-left: 16px;
     color: rgba(20, 20, 20, 0.5);
@@ -131,7 +130,7 @@
 }
 
 .modal-form-input::placeholder {
-    font-family: var(--primary-font);
+    font-family: 'Epilogue-400';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -158,7 +157,7 @@
 }
 
 .modal-form-message::placeholder {
-    font-family: var(--primary-font);
+    font-family: 'Epilogue-400';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -176,10 +175,11 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--color-white);
     background-color: var(--color-dark-green);
-    font-family: var(--primary-font) ;
+    font-family: 'Epilogue-400';
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
+    border: 1px solid var(--color-dark-green);
     text-transform: uppercase;
     margin-top: 20px;
 }
@@ -187,21 +187,19 @@
 .modal-form-submit:hover,
 .modal-form-submit:focus {
     
-background-color:var(--color-black);
+border: 1px solid var(--color-white);
 }
 
 .modal-form-text {
-    font-family: var(--primary-font);
+    font-family: 'Epilogue-400';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.4);
-
     margin-top: 12px;
 }
-
 
 @media screen and (min-width: 768px) {
 .modal {
@@ -211,15 +209,27 @@ background-color:var(--color-black);
     max-width: 744px;
     padding: 40px;
     height: auto;
+    overflow: hidden;
     }
 .modal-form {
     max-width: 368px;
+}
+.modal-form-input-descr {
+    font-size: 14px;
+    line-height: 1.29;
+}
+.modal-form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.12;
+}
+.modal-form-message::placeholder {
+    font-size: 16px;
+    line-height: 1.12;
 }
 .modal-form-submit {
     padding: 18px 36px;
     width: 100%;
 }
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -234,9 +244,9 @@ background-color:var(--color-black);
 .modal-form-field {
     margin-bottom: 24px;
 }
-    .modal-form-submit {
-        padding: 18px 36px;
-        width: 100%;
-        margin-top: 40px;
-    }
+.modal-form-submit {
+    padding: 18px 36px;
+    width: 100%;
+    margin-top: 40px;
+}
 }
