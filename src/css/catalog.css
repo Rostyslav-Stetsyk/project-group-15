@@ -1,5 +1,5 @@
 .catalog {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .catalog-title {
@@ -22,7 +22,9 @@
     margin-bottom: 40px;
 }
 
-.catalog-element {}
+.catalog-element {
+    width: 336px;
+}
 
 .catalog-container-pictures {
     position: relative;
@@ -45,7 +47,7 @@
 
 .catalog-element:hover .catalog-pictures,
 .catalog-element:focus .catalog-pictures {
-    transform: translateY(-100%);
+    transform: translateY(-101%);
 }
 
 .catalog-picture {
@@ -54,6 +56,12 @@
 }
 
 .catalog-pictures-title {
+    max-width: 276px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
     font-family: 'Epilogue-400';
     font-weight: 400;
     font-size: 14px;
@@ -89,7 +97,7 @@
     background-color: #1E2827;
     border-radius: 8px;
 
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -188,6 +196,10 @@
     .catalog-elements {
         width: 1218px;
         gap: 64px 24px;
+    }
+
+    .catalog-element {
+        width: 276px;
     }
 
     .catalog-button {
