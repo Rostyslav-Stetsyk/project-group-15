@@ -1,7 +1,12 @@
 .sale {
+  font-family: 'Epilogue-400', sans-serif;
+  font-weight: 400;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
-.section-title {
+.sale-title {
+  font-family: 'Epilogue-600', sans-serif;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 
@@ -91,6 +96,7 @@
 
 @media screen and (min-width: 768px) {
   .sale {
+    padding-top: 128px;
     padding-bottom: 128px;
   }
   .sale-title {
