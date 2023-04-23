@@ -1,11 +1,14 @@
 .header {
   background-color: #141414;
-  padding: 28px 0;
 }
 .header .container {
   position: absolute;
   display: flex;
   justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 28px;
+  max-width: 375px;
 }
 
 .logo-box {
