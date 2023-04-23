@@ -5,9 +5,20 @@ body{
   }
 
 .container{
-    width: 375px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+@media screen and (min-width: 415px) {
+    .container{
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container{
+        max-width: 375px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -30,7 +41,6 @@ body{
 }
 
 .text{
-    font-weight: 300;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
