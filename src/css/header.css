@@ -1,16 +1,22 @@
 .header {
-  position: absolute;
-  background-color: transparent;
-
+  background-color: №141414;
   max-width: 375px;
 }
+
 .header .container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 28px;
+  padding: 28px 20px 0 20px;
+  background-color: #141414;
 }
-
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  min-width: 375px;
+  margin: 0 auto;
+}
 .logo-box {
   position: absolute;
   top: 32px;
@@ -41,9 +47,6 @@
 }
 
 .menu-btn {
-  position: absolute;
-  top: 28px;
-  right: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,14 +55,14 @@
   margin: 0;
   padding: 0;
   fill: #ffffff;
+  stroke: #ffffff;
 }
 
 .icon-cross {
-  fill: inherit;
   width: 100%;
 }
 
-.container.js-menu-container .nav {
+.nav {
   display: none;
 }
 
@@ -71,28 +74,21 @@
   display: block;
 }
 
-.container.js-menu-container.is-open {
-  padding: 0;
-  width: 100vw;
-  height: 100vw;
-  z-index: 1;
+.is-open {
   background-color: #1e2827;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
 }
-
-.container.js-menu-container .nav {
-  display: block;
-  margin: 0 auto;
-}
-
-.container.js-menu-container.is-open .nav {
+.is-open .nav {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.container.js-menu-container .nav {
+  display: none;
+}
+
 .container.js-menu-container.is-open .nav-list {
   display: flex;
   align-items: center;
@@ -100,7 +96,8 @@
   flex-direction: column;
   gap: 14px;
 }
-.nav-item {
+
+.menu-nav-item {
   font-family: 'Epilogue-400', sans-serif;
   font-size: 14px;
   font-weight: normal;
