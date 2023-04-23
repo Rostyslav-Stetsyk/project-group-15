@@ -1,13 +1,3 @@
-li {
-  list-style-type: none;
-}
-/* .container {
-  min-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-} */
-
 .hero {
   background-color: var(--color-black);
   height: 1192px;
@@ -17,7 +7,6 @@ li {
 }
 .hero_title {
   width: 335px;
-  height: 120px;
   color: var(--color-white);
   font-family: 'Epilogue';
   font-style: normal;
@@ -103,7 +92,6 @@ li {
   }
   .hero_title {
     width: 653px;
-    height: 186px;
     font-size: 60px;
     line-height: 62px;
 
