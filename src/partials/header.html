@@ -5,7 +5,12 @@
       <p class="logo-text">thewatchspot</p>
     </div>
 
-    <button type="button" class="menu-btn is-open" js-open-menu>
+    <button
+      type="button"
+      class="menu-btn is-open"
+      aria-expanded="false"
+      js-open-menu
+    >
       <svg width="24" height="24" aria-label="Перемикач мобільного меню">
         <use href="./img/icons.svg#icon-burger-menu" class="icon-menu"></use>
         <use href="./img/icons.svg#icon-cross" class="icon-cross"></use>
@@ -27,22 +32,22 @@
         </li>
       </ul>
       <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+
+      <div class="menu-container js-menu-container">
+        <ul class="menu-nav">
+          <li class="menu-nav-item">
+            <a href="./about-us.html" class="nav-link">About-us</a>
+          </li>
+
+          <li class="menu-nav-item">
+            <a href="./catalog.html" class="nav-link">Catalog</a>
+          </li>
+
+          <li class="menu-nav-item">
+            <a href="./sale.html" class="nav-link">Sale</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-
-    <div class="menu-container" js-menu-container>
-      <ul class="menu-nav">
-        <li class="menu-nav-item">
-          <a href="./about-us.html" class="nav-link">About-us</a>
-        </li>
-
-        <li class="menu-nav-item">
-          <a href="./catalog.html" class="nav-link">Catalog</a>
-        </li>
-
-        <li class="menu-nav-item">
-          <a href="./sale.html" class="nav-link">Sale</a>
-        </li>
-      </ul>
-    </div>
   </div>
 </header>
