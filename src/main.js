@@ -1,3 +1,3 @@
 import './js/modal.js'
-// mobile-menu
+import './js/mobile-menu.js'
 // swiper
