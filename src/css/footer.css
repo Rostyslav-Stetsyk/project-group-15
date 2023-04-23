@@ -1,0 +1,163 @@
+.footer-wrapper {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: var(--color-dark-green);
+}
+
+.footer-nav li {
+    margin-bottom: 14px;
+}
+
+.footer-nav,
+.footer-contacts {
+    font-family: 'Epilogue-400';
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-copyright,
+.footer-privacy {
+    font-family: 'Epilogue-400';
+    color: var(--color-grey);
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.column-wrapper {
+    margin-bottom: 40px;
+}
+
+.general-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer-contacts-box {
+    display: flex;
+    max-width: 140px;
+}
+
+.footer-privacy {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-copyright {
+    margin-bottom: 14px;
+}
+
+.footer-logo-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-social-icon-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    max-width: 148px;
+}
+
+.footer-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-grey);
+    border-radius: 10px;
+}
+
+.footer-social-icon {
+    fill: var(--color-grey);
+}
+
+.footer-social-icon-box {
+    width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+    .footer-wrapper {
+        padding-top: 80px;
+    }
+
+    .general-wrapper {
+        margin-bottom: 152px;
+    }
+
+    .column-wrapper {
+        margin-bottom: 0;
+    }
+
+    .footer-copyright {
+        margin-bottom: 0;
+    }
+
+    .footer-privacy-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-social-icon-box {
+        width: auto;
+    }
+
+    .footer-social-icon-list {
+        max-width: 100%;
+    }
+
+    .footer-logo-link {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-nav li {
+        margin-bottom: 18px;
+    }
+
+    .footer-nav,
+    .footer-contacts {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .footer-copyright,
+    .footer-privacy {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer-icon-box {
+        width: 44px;
+        height: 44px;
+    }
+
+    .footer-contacts-box {
+        max-width: 175px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-wrapper {
+        padding-top: 104px;
+        padding-bottom: 32px;
+    }
+
+    .general-wrapper {
+        margin-bottom: 174px;
+    }
+}
