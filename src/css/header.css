@@ -1,14 +1,12 @@
 .header {
   background-color: #141414;
-
-  top: 0;
 }
 
 .header .container {
-  position: absolute;
-  width: 100%;
+  max-width: 375px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 28px;
   background-color: #141414;
 }
@@ -83,8 +81,8 @@
 
 .menu-nav {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 14px;
 }
 
@@ -97,13 +95,21 @@
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 678px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 100%;
   }
   .nav {
     display: flex;
+    flex-direction: row;
     background-color: aqua;
+    gap: 40px;
     margin-left: 80px;
   }
   .logo-box {
@@ -118,5 +124,10 @@
   }
   .menu-btn {
     display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1440px;
   }
 }
