@@ -15,7 +15,7 @@
     <!-- Style -->
     
     <script type="module" crossorigin src="/project-group-15/assets/index-e1fef0a7.js"></script>
-    <link rel="stylesheet" href="/project-group-15/assets/index-760283c9.css">
+    <link rel="stylesheet" href="/project-group-15/assets/index-964a22dd.css">
   </head>
   <body>
     <!-- Header -->
@@ -37,10 +37,10 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-  <div class="container">
+  <div class="container hero_conteiner">
     <h1 class="hero_title">Welcome to our collection of premium watches</h1>
-    <ul class="hero_list">
-      <li>
+    <div class="hero_list">
+      <div>
         <picture>
           <source
             srcset="/project-group-15/assets/watch_1-59281978.jpg 1x, /project-group-15/assets/watch_1_@2x-fd43d1e0.jpg 2x"
@@ -48,7 +48,6 @@
           />
           <source
             srcset="/project-group-15/assets/watch_1_phone-d1b59e0a.jpg 1x, /project-group-15/assets/watch_1_phone_@2x-c0622e3e.jpg 2x"
-            media="(min-width:375px)"
           />
 
           <img src="/project-group-15/assets/watch_1_phone-d1b59e0a.jpg" alt="" />
@@ -74,16 +73,28 @@
             <span class="hero_slider-counter"> 05 </span>
           </div>
         </div>
-      </li>
-      <li>
-        <p class="hero_slogan">
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-      </li>
-    </ul>
-    <div class="hero_background-img"></div>
+      </div>
+      <p class="hero_slogan">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones, we have
+        a watch to suit every taste and occasion.
+      </p>
+      <picture>
+        <source
+          srcset="/project-group-15/assets/min_background_desk-bbce621a.jpg 1x, /project-group-15/assets/min_background_desk_@2x-8845afbe.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/project-group-15/assets/min_background_table-a8a5ab0f.jpg 1x, /project-group-15/assets/min_background_table_@2x-df2106d7.jpg 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/project-group-15/assets/min_background_tel-04d12f18.jpg 1x, /project-group-15/assets/min_background_tel_@2x-12fcd602.jpg 2x"
+        />
+
+        <img src="./min_background/min_background_tel" alt="" />
+      </picture>
+    </div>
   </div>
 </section>
 
