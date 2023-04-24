@@ -76,9 +76,13 @@
 .icon-cross {
   stroke: #ffffff;
 }
-
+.nav-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .menu-list {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 14px;
