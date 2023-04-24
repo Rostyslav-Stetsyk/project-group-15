@@ -21,7 +21,6 @@
 }
 
 .sale-info-title {
-  width: 320px;
   margin-bottom: 8px;
   font-weight: 400;
   font-size: 24px;
@@ -107,7 +106,6 @@
     padding: 0 66px;
   }
   .sale-info-title {
-    width: 100%;
     font-size: 38px;
     line-height: 1.05;
   }
