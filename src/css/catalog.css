@@ -175,6 +175,10 @@
 
 @media screen and (min-width: 768px) {
 
+    .catalog {
+        padding: 0 64px;
+    }
+
     .catalog-title {
         font-size: 40px;
         line-height: 1, 1;
@@ -192,6 +196,10 @@
 
 
 @media screen and (min-width: 1280px) {
+
+    .catalog {
+        padding: 80px;
+    }
 
     .catalog-elements {
         width: 1218px;
