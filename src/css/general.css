@@ -9,9 +9,9 @@ body {
   padding: 0 20px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 415px) {
   .container {
-    max-width: 375px;
+    width: 375px;
   }
 }
 
