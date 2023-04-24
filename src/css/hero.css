@@ -6,9 +6,9 @@
   background-position: 50% 95%;
 }
 .hero_title {
-  width: 335px;
+  max-width: 335px;
   color: var(--color-white);
-  font-family: 'Epilogue';
+  font-family: 'Epilogue-600';
   font-style: normal;
   font-weight: 600;
   font-size: 38px;
@@ -21,13 +21,13 @@
 .hero_slogan {
   width: 248px;
   color: var(--color-white);
-  font-family: 'Epilogue';
+  font-family: 'Epilogue-300';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
-  margin-left: 87px;
+  margin-left: auto;
 }
 
 .hero_list {
@@ -46,17 +46,24 @@
   gap: 12px;
 }
 .hero_slider-btn {
+  display: flex;
   margin-top: 20px;
   background-color: var(--color-black);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   width: 32px;
   height: 32px;
+  align-items: center;
+  justify-content: center;
 }
 .hero_btn-icon {
   stroke: var(--color-white);
-  height: 9px;
-  width: 9px;
+  height: 20px;
+  width: 20px;
+}
+.hero_slider-btn:hover {
+  border: 1px solid #ffffff;
+  tansiton: border matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .hero_counter-conteiner {
@@ -102,7 +109,7 @@
     align-items: center;
   }
   .hero_title {
-    width: 653px;
+    max-width: 653px;
     font-size: 60px;
     line-height: calc(62 / 60);
 
@@ -128,13 +135,15 @@
     background-size: 704px 410px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .hero {
     height: 789px;
     background-image: url(../img/min_background/min_background_desk.jpg);
+    background-position: 85% 85%;
   }
   .hero_title {
-    width: 750px;
+    max-width: 750px;
   }
   .hero_slogan {
     width: 282px;
@@ -149,6 +158,6 @@
   .hero {
     background-image: url(../img/min_background/min_background_desk_@2x.jpg);
     background-size: 676px 394px;
-    background-position: 85% 65%;
+    background-position: 85% 85%;
   }
 }
