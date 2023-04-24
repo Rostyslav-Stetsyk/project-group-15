@@ -1,14 +1,11 @@
 .header .container {
   position: absolute;
   left: 50%;
-  /* top: 28px;
-  left: 20px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
   width: 100vw;
-  max-width: 375px;
   transform: translateX(-50%);
 }
 .tel,
@@ -53,6 +50,7 @@
 
 .js-menu-container {
   position: absolute;
+  z-index: 10;
   transform: translateY(-100%);
   transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
   height: 100vh;
@@ -80,6 +78,7 @@
 }
 
 .menu-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -88,7 +87,7 @@
   font-family: 'Epilogue-400', sans-serif;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.25em;
+  line-height: 1.25;
   color: #ffffff;
   text-transform: uppercase;
 }
