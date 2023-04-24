@@ -1,15 +1,24 @@
 .header {
   background-color: #141414;
 }
-
-.header .container {
+.container {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100vw;
+  max-width: 375px;
+  transform: translateX(-50%);
+}
+/* .header .container {
   max-width: 375px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 28px;
   background-color: #141414;
-}
+} */
 
 .logo-box {
   width: 98px;
