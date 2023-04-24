@@ -1,8 +1,8 @@
 <section class="hero">
-  <div class="container">
+  <div class="container hero_conteiner">
     <h1 class="hero_title">Welcome to our collection of premium watches</h1>
-    <ul class="hero_list">
-      <li>
+    <div class="hero_list">
+      <div>
         <picture>
           <source
             srcset="
@@ -16,7 +16,6 @@
               ./img/swiper/watch_swiper_phone/watch_1_phone.jpg     1x,
               ./img/swiper/watch_swiper_phone/watch_1_phone_@2x.jpg 2x
             "
-            media="(min-width:375px)"
           />
 
           <img src="./img/swiper/watch_swiper_phone/watch_1_phone.jpg" alt="" />
@@ -42,15 +41,36 @@
             <span class="hero_slider-counter"> 05 </span>
           </div>
         </div>
-      </li>
-      <li>
-        <p class="hero_slogan">
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-      </li>
-    </ul>
-    <div class="hero_background-img"></div>
+      </div>
+      <p class="hero_slogan">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones, we have
+        a watch to suit every taste and occasion.
+      </p>
+      <picture>
+        <source
+          srcset="
+            ./img/min_background/min_background_desk.jpg     1x,
+            ./img/min_background/min_background_desk_@2x.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            ./img/min_background/min_background_table.jpg     1x,
+            ./img/min_background/min_background_table_@2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ./img/min_background/min_background_tel.jpg     1x,
+            ./img/min_background/min_background_tel_@2x.jpg 2x
+          "
+        />
+
+        <img src="./min_background/min_background_tel" alt="" />
+      </picture>
+    </div>
   </div>
 </section>
