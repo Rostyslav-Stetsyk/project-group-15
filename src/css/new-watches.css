@@ -16,7 +16,6 @@
 }
 .new-watches-subtitle {
   font-weight: 600;
-  font-size: 40px;
   font-size: 32px;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -25,7 +24,7 @@
 }
 .new-watches-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .new-watches-item {
@@ -36,6 +35,7 @@
 }
 .new-watches-img {
   width: auto;
+  g
 }
 
 @media screen and (min-width: 428px) {
