@@ -1,46 +1,59 @@
-<section class="vite-promo">
+<section class="hero">
   <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
+    <h1 class="hero_title">Welcome to our collection of premium watches</h1>
+    <ul class="hero_list">
+      <li>
+        <picture>
+          <source
+            srcset="
+              ../img/swiper/watch_swiper_desk+table/watch_1.jpg     1x,
+              ../img/swiper/watch_swiper_desk+table/watch_1_@2x.jpg 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ../img/swiper/watch_swiper_phone/watch_1_phone.jpg     1x,
+              ../img/swiper/watch_swiper_phone/watch_1_phone_@2x.jpg 2x
+            "
+            media="(min-width:375px)"
+          />
 
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
+          <img
+            src="../img/swiper/watch_swiper_phone/watch_1_phone.jpg"
+            alt=""
+          />
+        </picture>
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="./img/vite-logo.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
+        <div class="hero_slider-controller">
+          <div class="hero_btn-conteiner">
+            <button class="hero_slider-btn">
+              <svg class="hero_btn-icon">
+                <use href="../img/icons.svg#icon-left-arrow"></use>
+              </svg>
+            </button>
+            <button class="hero_slider-btn">
+              <svg class="hero_btn-icon">
+                <use href="../img/icons.svg#icon-right-arrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="hero_counter-conteiner">
+            <span class="hero_slider-counter hero_slider-counter-hyphen">
+              01
+            </span>
+            <span class="hero_slider-counter"> 05 </span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <p class="hero_slogan">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </li>
+    </ul>
+    <div class="hero_background-img"></div>
   </div>
 </section>
