@@ -10,6 +10,7 @@
 
 .about-text {
   font-family: 'Epilogue-300', sans-serif;
+  font-weight: 300;
 }
 
 .about-list {
@@ -29,7 +30,6 @@
   background-image: url(../img/watchspot.gif);
   background-size: cover;
   background-position: 50% 50%;
-  width: 335px;
   height: 365px;
 }
 
@@ -39,7 +39,24 @@
   gap: 40px;
 }
 
+@media screen and (max-width: 414px) {
+  .about-container::after {
+    max-width: 335px;
+  }
+}
+
+@media screen and (min-width: 415px) {
+  .about-container::after {
+    width: 335px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .about-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
   .about-list {
     flex-direction: row;
   }
@@ -58,9 +75,22 @@
     line-height: 1.1;
     min-width: 174px;
   }
+
+  .about-item {
+    width: 220px;
+  }
+
+  .about-item-small {
+    width: 250px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   .about-row {
     gap: 110px;
   }
