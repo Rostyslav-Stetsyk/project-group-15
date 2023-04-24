@@ -129,6 +129,7 @@
   }
   .tel {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     width: 160px;
