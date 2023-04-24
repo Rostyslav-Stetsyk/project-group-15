@@ -1,6 +1,3 @@
-.header {
-  background-color: #141414;
-}
 .container {
   position: absolute;
   left: 50%;
@@ -11,14 +8,17 @@
   max-width: 375px;
   transform: translateX(-50%);
 }
-/* .header .container {
-  max-width: 375px;
-  display: flex;
+.header .container {
   align-items: center;
-  justify-content: space-between;
   padding-top: 28px;
   background-color: #141414;
-} */
+  border: 1px solid red;
+}
+
+.tel,
+.nav {
+  display: none;
+}
 
 .logo-box {
   width: 98px;
@@ -54,46 +54,41 @@
   margin-left: auto;
   padding: 0;
   fill: #ffffff;
+}
+
+.js-menu-container {
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  height: 100vh;
+  width: 100vw;
+  background-color: #1e2827;
+}
+.js-menu-container.is-open {
+  transform: translateY(0);
+}
+
+.logo-button {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100vw;
+  max-width: 375px;
+  transform: translateX(-50%);
+}
+
+.icon-cross {
   stroke: #ffffff;
 }
 
-.nav {
-  display: none;
-}
-
-/* .menu-btn.js-open-menu .icon-menu {
-  display: block;
-} */
-
-/* .menu-btn.is-open .icon-cross {
-  display: block;
-} */
-/* .menu-btn.js-open-menu .icon-cross {
-  display: none;
-} */
-
-/* .menu-btn.is-open .icon-menu {
-  display: none;
-} */
-
-.menu-container {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #1e2827;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu-nav {
+/* .menu-nav {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   gap: 14px;
-}
+} */
 
 .menu-nav-item {
   font-family: 'Epilogue-400', sans-serif;
@@ -106,18 +101,17 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 678px;
+    max-width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 100%;
+    max-width: 768px;
   }
   .nav {
     display: flex;
     flex-direction: row;
-    background-color: aqua;
     gap: 40px;
     margin-left: 80px;
   }
