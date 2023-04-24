@@ -1,6 +1,7 @@
 .new-watches {
   font-family: 'Epilogue-400', sans-serif;
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .new-watches-title {
@@ -50,8 +51,8 @@
     width: 1218px;
   }
   .new-watches {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .new-watches-subtitle {
     width: 448px;
