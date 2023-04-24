@@ -33,8 +33,8 @@
 
 @media screen and (min-width: 768px) {
   .new-watches {
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .new-watches-title {
     font-size: 12px;
@@ -51,8 +51,8 @@
     width: 1218px;
   }
   .new-watches {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .new-watches-subtitle {
     width: 448px;
