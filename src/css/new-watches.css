@@ -17,11 +17,10 @@
 .new-watches-subtitle {
   font-weight: 600;
   font-size: 40px;
+  font-size: 32px;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--color-dark-green);
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 40px;
 }
 .new-watches-list {
