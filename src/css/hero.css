@@ -1,6 +1,7 @@
 .hero {
   background-color: var(--color-black);
-  height: 1192px;
+  padding-top: 122px;
+  padding-bottom: 40px;
 }
 .hero_title {
   max-width: 335px;
@@ -12,8 +13,6 @@
   line-height: calc(40 / 38);
 
   letter-spacing: -0.04em;
-
-  padding-top: 122px;
 }
 .hero_slogan {
   width: 248px;
@@ -60,7 +59,7 @@
 }
 .hero_slider-btn:hover {
   border: 1px solid #ffffff;
-  tansiton: border matrix(-1, 0, 0, 1, 0, 0);
+  transition: var(--transition-duration);
 }
 
 .hero_counter-conteiner {
@@ -86,6 +85,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 148px;
+    padding-bottom: 64px;
+  }
   .hero_list {
     flex-direction: row;
     gap: 20px;
@@ -97,7 +100,6 @@
     font-size: 60px;
     line-height: calc(62 / 60);
 
-    padding-top: 148px;
     margin-left: 32px;
   }
   .hero_slider-btn {
@@ -105,7 +107,9 @@
     height: 40px;
   }
   .hero_slogan {
-    margin-left: 0;
+    position: absolute;
+    right: 32px;
+    top: 464px;
   }
   .hero_counter-conteiner {
     margin-left: 262px;
@@ -113,13 +117,16 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-bottom: 80px;
+  }
   .hero_title {
     max-width: 750px;
   }
   .hero_slogan {
     width: 282px;
     position: absolute;
-    left: 1026px;
+    right: 132px;
     top: 148px;
   }
 }
