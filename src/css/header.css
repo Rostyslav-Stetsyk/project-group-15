@@ -1,4 +1,4 @@
-.container {
+.header .container {
   position: absolute;
   left: 50%;
   /* top: 28px;
@@ -94,17 +94,12 @@
 }
 
 @media screen and (max-width: 414px) {
-  .container {
-    max-width: 375px;
-  }
-}
-@media screen and (max-width: 414px) {
-  .container {
+  .header .container {
     max-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .header .container {
     width: 744px;
   }
   .menu-btn {
@@ -145,7 +140,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .header .container {
     max-width: 1440px;
   }
 }
