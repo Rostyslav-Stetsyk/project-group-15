@@ -35,17 +35,12 @@
 }
 .new-watches-img {
   width: auto;
-  g
 }
 
 @media screen and (min-width: 428px) {
-  .new-watches {
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .new-watches {
-  }
   .new-watches {
     padding-top: 128px;
     padding-bottom: 128px;
