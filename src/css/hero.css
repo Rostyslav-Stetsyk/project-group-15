@@ -1,3 +1,6 @@
+.hero_conteiner {
+  position: relative;
+}
 .hero {
   background-color: var(--color-black);
   padding-top: 122px;
@@ -91,7 +94,7 @@
   }
   .hero_list {
     flex-direction: row;
-    gap: 20px;
+    gap: 64px;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -108,8 +111,8 @@
   }
   .hero_slogan {
     position: absolute;
-    right: 32px;
-    top: 464px;
+    right: 25px;
+    top: 330px;
   }
   .hero_counter-conteiner {
     margin-left: 262px;
@@ -126,7 +129,6 @@
   .hero_slogan {
     width: 282px;
     position: absolute;
-    right: 132px;
-    top: 148px;
+    top: 0;
   }
 }
