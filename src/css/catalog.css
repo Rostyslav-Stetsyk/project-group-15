@@ -190,7 +190,7 @@
 @media screen and (min-width: 768px) {
 
     .catalog {
-        padding: 0 64px;
+        padding: 64px 0;
     }
 
     .catalog-title {
