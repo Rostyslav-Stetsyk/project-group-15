@@ -145,12 +145,21 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  .nav-item {
+    flex-grow: 1.1;
+  }
+
+  /* .nav-item:hover {
+    transform: scale(1.1);
+  } */
+
   .nav-link {
+    display: block;
     padding: 6px 0;
   }
   .nav-link:is(:hover, :focus) {
-    transform: scale(1.1);
     color: #c6cdd1;
+    transform: scale(1.1);
   }
 
   .tel {
