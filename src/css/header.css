@@ -129,6 +129,10 @@
     margin-left: 80px;
   }
 
+  .nav a:is(:hover, :focus) {
+    color: #c6cdd1;
+  }
+
   .nav-list {
     display: flex;
     flex-wrap: nowrap;
