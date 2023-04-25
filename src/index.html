@@ -14,6 +14,12 @@
     />
     <!-- Style -->
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -43,5 +49,25 @@
     <load src="./partials/popup.html" />
 
     <script type="module" src="/main.js"></script>
+
+    <!-- Swiper Js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize-Swiper -->
+    <script>
+      const swiper = new Swiper('.myswiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.button-next',
+          prevEl: '.button-prev',
+        },
+      });
+    </script>
   </body>
 </html>
