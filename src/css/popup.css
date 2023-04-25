@@ -84,7 +84,9 @@ stroke: var(--color-black);
     
     color: var(--color-text);
 }
-
+.modal-policy-link{
+    text-decoration-line: underline;
+}
 .modal-form {
     display: flex;
     flex-direction: column;
