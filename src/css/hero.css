@@ -1,11 +1,13 @@
 .hero_conteiner {
   position: relative;
 }
+
 .hero {
   background-color: var(--color-black);
   padding-top: 122px;
   padding-bottom: 40px;
 }
+
 .hero_title {
   max-width: 335px;
   color: var(--color-white);
@@ -17,6 +19,7 @@
 
   letter-spacing: -0.04em;
 }
+
 .hero_slogan {
   width: 248px;
   color: var(--color-white);
@@ -40,10 +43,12 @@
   display: flex;
   align-items: flex-end;
 }
+
 .hero_btn-conteiner {
   display: flex;
   gap: 12px;
 }
+
 .hero_slider-btn {
   display: flex;
   margin-top: 20px;
@@ -55,11 +60,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .hero_btn-icon {
   stroke: var(--color-white);
   height: 20px;
   width: 20px;
 }
+
 .hero_slider-btn:hover {
   border: 1px solid #ffffff;
   transition: var(--transition-duration);
@@ -70,12 +77,15 @@
   gap: 44px;
   margin-left: 116px;
 }
+
 .hero_slider-counter {
   color: var(--color-white);
 }
+
 .hero_slider-counter-hyphen {
   position: relative;
 }
+
 .hero_slider-counter-hyphen::after {
   content: '';
   display: block;
@@ -87,17 +97,37 @@
   top: 9px;
 }
 
+.swiper-container {
+  width: 266px;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--color-dark-green);
+}
+
+.swiper {
+  width: 252px;
+}
+
+.swiper-img {}
+
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 148px;
     padding-bottom: 64px;
   }
+
   .hero_list {
     flex-direction: row;
     gap: 64px;
     align-items: center;
     flex-wrap: wrap;
   }
+
   .hero_title {
     max-width: 653px;
     font-size: 60px;
@@ -105,17 +135,33 @@
 
     margin-left: 32px;
   }
+
   .hero_slider-btn {
     width: 40px;
     height: 40px;
   }
+
   .hero_slogan {
     position: absolute;
     right: 25px;
     top: 330px;
   }
+
   .hero_counter-conteiner {
     margin-left: 262px;
+  }
+
+  .swiper-container {
+    width: 436px;
+    height: 255px;
+  }
+
+  .swiper {
+    width: 310px;
+  }
+
+  .swiper-img {
+    width: 100%;
   }
 }
 
@@ -123,9 +169,11 @@
   .hero {
     padding-bottom: 80px;
   }
+
   .hero_title {
     max-width: 750px;
   }
+
   .hero_slogan {
     width: 282px;
     position: absolute;
