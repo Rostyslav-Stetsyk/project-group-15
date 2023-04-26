@@ -1,4 +1,7 @@
 /*!=================GENERAL=================!*/
+html, body { 
+  scroll-behavior: smooth
+}
 
 body {
   color: var(--color-black);

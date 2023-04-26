@@ -109,11 +109,8 @@
 }
 
 .swiper {
-  width: 252px;
+  width: 266px;
 }
-
-.swiper-img {}
-
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -157,7 +154,7 @@
   }
 
   .swiper {
-    width: 310px;
+    width: 436px;
   }
 
   .swiper-img {
