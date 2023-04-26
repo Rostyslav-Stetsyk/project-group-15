@@ -59,6 +59,7 @@
   height: 32px;
   align-items: center;
   justify-content: center;
+  transition: var(--transition-duration);
 }
 
 .hero_btn-icon {
@@ -69,7 +70,6 @@
 
 .hero_slider-btn:hover {
   border: 1px solid #ffffff;
-  transition: var(--transition-duration);
 }
 
 .hero_counter-conteiner {
