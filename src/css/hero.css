@@ -112,9 +112,6 @@
   width: 252px;
 }
 
-.swiper-img {}
-
-
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 148px;
