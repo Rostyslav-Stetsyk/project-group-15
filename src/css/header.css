@@ -113,6 +113,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .js-menu-container {
+    display: none;
+  }
+
   .header .container {
     width: 744px;
     padding: 4px 20px;
