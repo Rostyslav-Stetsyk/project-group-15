@@ -24,4 +24,3 @@ const swiper = new Swiper('.myswiper', {
     const counter = document.querySelector('.hero_slider-counter');
     counter.textContent = '0' + currentSlide + ' —— ' + '0' + totalSlides;
   });
-  
